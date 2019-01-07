@@ -1,7 +1,7 @@
 {
-  "name": "giotiskl.github.io",
+  "name": "muhammadhasham.me",
   "version": "1.0.0",
-  "description": "Portfolio of Yiotis Kaltsikis, Front End Developer based in Berlin, Germany",
+  "description": "Portfolio of Muhammad Hasham",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,17 +12,17 @@
     "url": "git+https://github.com/giotiskl/giotiskl.github.io.git"
   },
   "keywords": [
-    "frontend",
-    "yiotis",
-    "kaltsikis",
+    "web",
+    "node.js",
+    "muhammad hasham",
     "personal",
     "portfolio",
-    "filterizr"
+    "javascript"
   ],
-  "author": "Yiotis Kaltsikis",
+  "author": "Muhammad Hasham",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/giotiskl/giotiskl.github.io/issues"
+    "url": "https://github.com/MohammadHasham/muhammad.hasham.github.io/issues"
   },
-  "homepage": "https://github.com/giotiskl/giotiskl.github.io#readme"
+  "homepage": "https://github.com/MohammadHasham/muhammadhasham.github.io#readme"
 }
