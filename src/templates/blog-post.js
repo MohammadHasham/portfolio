@@ -54,7 +54,7 @@ const MarkdownContent = styled.div`
 export default ({ data }) => {
   const post = data.markdownRemark;
   let disqusConfig = {
-    url: `localhost:8001/blog/redis101`,
+    url: `muhammadhasham.com/blog/redis101`,
     identifier: 1,
     title: 'Redis 101',
   }
