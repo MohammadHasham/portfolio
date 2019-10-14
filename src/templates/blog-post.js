@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 
 const Content = styled.div`
   margin: 0 auto;
@@ -51,7 +52,12 @@ const MarkdownContent = styled.div`
 `
 
 export default ({ data }) => {
-  const post = data.markdownRemark
+  const post = data.markdownRemark;
+  let disqusConfig = {
+    url: `localhost:8001/blog/redis101`,
+    identifier: 1,
+    title: 'Redis 101',
+  }
   return (
     <Layout>
       <SEO
@@ -64,6 +70,8 @@ export default ({ data }) => {
           {post.frontmatter.date} - {post.fields.readingTime.text}
         </HeaderDate>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
+        <CommentCount config={disqusConfig} placeholder={'...'} />
+        <Disqus config={disqusConfig} />
       </Content>
     </Layout>
   )
