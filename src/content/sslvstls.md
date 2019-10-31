@@ -7,7 +7,7 @@ path: "/blog/ssl-and-tls"
 
 <br/><br/><br/><br/>
 <div style="text-align:center">
-![](https://i.ibb.co/Px6tfvP/ll2.jpg "Redis")<br/><br/>
+<img src="https://i.ibb.co/Px6tfvP/ll2.jpg"/>
 </div>
 
 SSL and TLS are often confused as if they are the same thing. But the truth is that SSL is the predecessor to TLS. New versions of TLS came up over the years to enhance security and support advance algorithms. 
