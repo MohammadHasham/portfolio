@@ -5,7 +5,7 @@ draft: false
 path: "/blog/ssl-and-tls"
 ---
 
-<br/><br/><br/><br/>
+<br/>
 <div style="text-align:center">
 <img src="https://i.ibb.co/Px6tfvP/ll2.jpg"/>
 </div>
