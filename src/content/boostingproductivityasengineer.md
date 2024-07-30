@@ -9,6 +9,8 @@ path: "/blog/boosting-productivity-as-software-engineer"
 
 In the ever-evolving world of software engineering, productivity is the cornerstone of success. Balancing code quality, tight deadlines, and constant learning can be overwhelming. However, with the right strategies, you can significantly boost your productivity. Here's a comprehensive guide to help you thrive.
 
+![Productivity Tips](https://images.pexels.com/photos/1226398/pexels-photo-1226398.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1)
+
 ## 1. **Mastering Time Management**
 Time management is vital for software engineers. Techniques like the Pomodoro method can keep you focused and prevent burnout. This involves working in 25-minute bursts, followed by a 5-minute break. After four cycles, take a longer break of 15-30 minutes. This rhythm helps maintain high concentration and reduces mental fatigue.
 
@@ -32,7 +34,5 @@ The right tools can make a significant difference. Invest in robust Integrated D
 
 ## Conclusion
 By implementing these strategies, you can boost your productivity, leading to more efficient workflows, better project outcomes, and a healthier work-life balance. Remember, productivity isn't about working harder, but smarter.
-
-![Productivity Tips](https://w7.pngwing.com/pngs/915/87/png-transparent-workforce-productivity-technology-computer-software-organization-technology-electronics-text-innovation-thumbnail.png)
 
 Adopting these approaches can help you create a sustainable and productive working environment, ultimately driving success in the dynamic field of software engineering.
