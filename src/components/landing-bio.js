@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import { FaGithub, FaStackOverflow, FaLinkedin } from "react-icons/fa"
 
 const Container = styled.div`
   text-align: center;
@@ -26,6 +27,23 @@ const NameHeader = styled.h1`
   margin-bottom: 0;
 `
 
+const IconsContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+`
+
+const IconLink = styled.a`
+  font-size: 2rem;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+`
+
 const LandingBio = () => (
   <StaticQuery
     query={graphql`
@@ -42,6 +60,17 @@ const LandingBio = () => (
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
           <Description>Software Developer</Description>
+          <IconsContainer>
+            <IconLink href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
+              <FaGithub />
+            </IconLink>
+            <IconLink href="https://stackoverflow.com/users/your-stackoverflow-id" target="_blank" rel="noopener noreferrer">
+              <FaStackOverflow />
+            </IconLink>
+            <IconLink href="https://www.linkedin.com/in/your-linkedin-id" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin />
+            </IconLink>
+          </IconsContainer>
         </Container>
       </OuterContainer>
     )}
