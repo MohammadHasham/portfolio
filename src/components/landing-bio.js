@@ -61,13 +61,13 @@ const LandingBio = () => (
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
           <Description>Software Developer</Description>
           <IconsContainer>
-            <IconLink href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
+            <IconLink href="https://github.com/muhammadhasham23" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </IconLink>
-            <IconLink href="https://stackoverflow.com/users/your-stackoverflow-id" target="_blank" rel="noopener noreferrer">
+            <IconLink href="https://stackoverflow.com/users/5915016/mohhamad-hasham" target="_blank" rel="noopener noreferrer">
               <FaStackOverflow />
             </IconLink>
-            <IconLink href="https://www.linkedin.com/in/your-linkedin-id" target="_blank" rel="noopener noreferrer">
+            <IconLink href="https://www.linkedin.com/in/muhammad-hasham/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </IconLink>
           </IconsContainer>
